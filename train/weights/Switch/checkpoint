@@ -1,0 +1,6 @@
+model_checkpoint_path: "real_0.97_crossvalid_1.00_optimal_model.ckpt-43000"
+all_model_checkpoint_paths: "real_0.96_crossvalid_1.00_optimal_model.ckpt-12000"
+all_model_checkpoint_paths: "real_0.97_crossvalid_0.99_optimal_model.ckpt-26000"
+all_model_checkpoint_paths: "real_0.97_crossvalid_1.00_optimal_model.ckpt-51000"
+all_model_checkpoint_paths: "real_0.98_crossvalid_1.00_optimal_model.ckpt-330000"
+all_model_checkpoint_paths: "real_0.98_crossvalid_1.00_optimal_model.ckpt-2153000"

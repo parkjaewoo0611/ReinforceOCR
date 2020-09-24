@@ -1,0 +1,2 @@
+model_checkpoint_path: "val_0.90_crossvalid_1.00_optimal_model.ckpt-63000"
+all_model_checkpoint_paths: "val_0.90_crossvalid_1.00_optimal_model.ckpt-63000"
