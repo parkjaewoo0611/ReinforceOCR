@@ -1,5 +1,5 @@
 # Multi-Lingual Optical Character Recognition System using the Reinforcement Learning of Character Segmenter
-This is a Tensorflow implementation of "Multi-Lingual Optical Character Recognition System using the Reinforcement Learning of Character Segmenter" accepted by IEEE ACCESS 2020.
+This is a Tensorflow implementation of "Multi-Lingual Optical Character Recognition System using the Reinforcement Learning of Character Segmenter" accepted in IEEE ACCESS 2020, written by Jaewoo Park, Eunji Lee, Yoonsik Kim, Isaac Kang, Hyung Il Koo and Nam Ik Cho.
 
 ## Abstract
 In this paper, we present a new multi-lingual Optical Character Recognition (OCR) system for scanned documents. In the case of Latin characters, current open source systems such as Tesseract provide very high accuracy. However, the accuracy of the multi-lingual documents, including Asian characters, is usually lower than that for Latin-only documents. For example, when the document is the mix of English, Chinese and/or Korean characters, the OCR accuracy is lowered than English-only because the character/text properties of Chinese and Korean are quite different from Latin-type characters.
@@ -14,7 +14,11 @@ $ cd ReinforceOCR
 $ conda env create -f environment.yml --name MultiOCR
 $ conda activate MultiOCR
 ```
-### Train
+- You can Download training word datasets here
+-Examples of our word dataset:
+![](fig/word.png)
+
+## Train
 - Training segmenter in two step
 ```
 $ cd train
@@ -22,9 +26,15 @@ $ python train_Proj.py
 $ python train_RL.py
 ```
 
-### Test 
-- Test results
+## Test 
+- Test the model with uploaded testset.
 ```
 $ cd test
 $ python test.py
 ```
+
+## Results
+Examples of recognition results of our method:
+![](fig/results.png)
+![](fig/table.png)
+
