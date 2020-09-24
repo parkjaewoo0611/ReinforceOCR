@@ -14,12 +14,17 @@ $ cd ReinforceOCR
 $ conda env create -f environment.yml --name MultiOCR
 $ conda activate MultiOCR
 ```
-### Train segmenter based on projection profile
+### Train
+- Training segmenter in two step
 ```
 $ cd train
 $ python train_Proj.py
-```
-### Train segmenter based on Reinforcement
-```
 $ python train_RL.py
+```
+
+### Test 
+- Test results
+```
+$ cd test
+$ python test.py
 ```
