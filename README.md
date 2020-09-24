@@ -14,8 +14,11 @@ $ cd ReinforceOCR
 $ conda env create -f environment.yml --name MultiOCR
 $ conda activate MultiOCR
 ```
-- You can Download training word datasets here
--Examples of our word dataset:
+
+## Prepare Dataset
+- You can Download our training word dataset [here](http://zeldahagoshipda.com)
+- To train model, copy downloaded word dataset to [train/train]
+- Examples of our word dataset:
 ![](fig/word.png)
 
 ## Train
