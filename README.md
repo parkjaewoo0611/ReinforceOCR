@@ -16,8 +16,8 @@ $ conda activate MultiOCR
 ```
 
 ## Prepare Dataset
-- You can Download our training word dataset [here](http://zeldahagoshipda.com)
-- To train model, copy downloaded word dataset to [train/train]
+- You can Download our training word dataset [here](https://drive.google.com/drive/folders/1pGuCG0oQ2My3XHkc_zbu44KftMAKSUXb?usp=sharing)
+- To train model, copy downloaded word dataset to folder train/train
 - Examples of our word dataset:
 ![](fig/word.png)
 
