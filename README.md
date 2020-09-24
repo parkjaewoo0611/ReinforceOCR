@@ -41,5 +41,6 @@ Examples of recognition results of our method:
 ![](fig/results.png)
 
 Quantitative Results:
+
 ![](fig/table.png)
 
