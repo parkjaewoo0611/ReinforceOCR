@@ -37,6 +37,7 @@ $ python test.py
 ```
 
 ## Results
+Note that to use our model in other fonts, you have to collect or generate word images with new fonts and train the models.
 Examples of recognition results of our method:
 ![](fig/results.png)
 
